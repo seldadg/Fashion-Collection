@@ -1,0 +1,767 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", sans-serif;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 1.8;
+}
+h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+h3{
+    font-size: 42px;
+    font-weight: 600;
+}
+h4{
+    font-size: 36px;
+    font-weight: 600;
+}
+h5{
+    font-size: 24px;
+    font-weight: 600;
+}
+h6{
+    font-size: 18px;
+    font-weight: 600;
+}
+p, span{
+    font-size: 14px;
+    color: #454545;
+    line-height: 1.8;
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-around;
+}
+.header{
+    position: relative;
+    left: -180px;
+    top: 40px;
+}
+.line1{
+    position: absolute;
+    border: 1px solid #E0AA3E;
+    width: 20px;
+}
+.line2{
+    position: absolute;
+    border: 1px solid #000000;
+    width: 35px;
+    top: 13px;
+}
+.line3{
+    position: absolute;
+    border: 1px solid #E0AA3E;
+    width: 20px;
+    top: 28px;
+}
+.logo{
+    margin-top: 20px;
+}
+.logo .title-gold{
+    color: #E0AA3E;
+    line-height: 0.8;
+}
+.logo .title-black{
+    position: relative;
+    left: 35px;
+    top: -15px;
+}
+.card img{
+    width: 35px;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    transform: rotate(-15deg);
+}
+.feauter-top{
+    display: flex;
+    justify-content: center;
+}
+.feauter-top img{
+    width: 55%;
+    border-top-left-radius: 30%;
+}
+.feature-element{
+    background: linear-gradient(108deg, rgba(224, 170, 62, 0.5), rgba(249, 242, 149, 0.5));
+    padding: 150px 100px 100px 100px;
+    position: relative;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+.feature-element-title-1{
+    position: relative;
+    left: -70px;
+    font-weight: 500;
+}
+.feature-element-title-2{
+    position: relative;
+    left: 50px;
+    top: 20px;
+    font-weight: 500;
+}
+.feature-element-title-2 span{
+    position: absolute;
+    top: 20px;
+    right: -9px;
+    font-style: italic;
+}
+.feature-element-title-3{
+    position: relative;
+    top: 30px;
+    font-style: italic;
+    font-weight: 600;
+    color: #E0AA3E;
+}
+.new-collection-section{
+	margin-top: 150px;
+}
+.new-collection-txt{
+    padding: 50px 500px 50px 100px;
+}
+.new-collection-txt .line {
+	width: 45px;
+    border: 1px solid #E0AA3E;
+    position: absolute;
+    height: 1px;
+    top: 50px;
+    left: -52px;
+}
+.new-collection-txt .summer-title {
+    color: #E0AA3E;
+    font-weight: 500;
+    position: relative;
+    left: 50px;
+}
+.new-collection-txt .year-title{
+	color: #E0AA3E;
+    font-weight: 500;
+    font-size: 68px;
+    position: relative;
+    left: 209px;
+    top: -54px;
+    font-style: italic;
+}
+.new-collection-txt p{
+	 margin-top: -50px;
+}
+.new-collection-img-1 img{
+	width: 160%;
+    position: relative;
+    left: -400px;
+    border-top-right-radius: 130px;
+	top: 80px;
+}
+.new-collection-img-2 img{
+	width: 180%;
+    position: relative;
+    left: -250px;
+    border-bottom-left-radius: 100px;
+}
+.btn-wrap{
+	display: flex;
+    position: relative;
+    left: 250px;
+    top: 20px;
+}
+.btn-wrap-1{
+	display: flex;
+    position: relative;
+    left: 0;
+    top: 130px;
+}
+.btn-wrap-2{
+    display: flex;
+    position: relative;
+    left: 400px;
+    top: 20px;
+}
+
+.explore-btn{
+	border: none;
+    background: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #E0AA3E;
+    position: relative;
+    top: 10px;
+    left: -29px;
+    font-weight: 700;
+}
+.explore-btn-1{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #E0AA3E;
+    position: relative;
+    top: 17px;
+    left: -5px;
+    font-weight: 700;
+}
+.btn-line{
+    width: 35px;
+    border: 1px solid #E0AA3E;
+    position: relative;
+    height: 1px;
+    top: 30px;
+    left: 15px;
+}
+.btn-line-1{
+    width: 35px;
+    border: 1px solid #E0AA3E;
+    position: relative;
+    height: 1px;
+    top: 95px;
+    left: -20px;
+}
+.cyrcle-btn{
+	border: 1px solid #454545;
+    padding: 30px;
+    border-radius: 50%;
+}
+.cyrcle-btn-1{
+    border: 1px solid #454545;
+    padding: 35px;
+    border-radius: 50%;
+    position: absolute;
+    top: 60px;
+}
+.collection{
+	display: flex;
+	margin-top: 100px;
+}
+.collection-menu h3{
+	font-style: italic;
+}
+.left-img{
+	display: flex;
+}
+.right-img{
+	display: flex;
+}
+.left-img-1{
+	position: relative;
+    height: 70%;
+}
+.left-img-2{
+	position: relative;
+    height: 70%;
+    top: 95px;
+}
+.collection-menu{
+	position: relative;
+    text-align: center;
+    left: -100px;
+}
+.right-img-1{
+	height: 92%;
+    position: relative;
+    left: -85px;
+}
+.right-img-2{
+	height: 75%;
+    position: relative;
+    left: -120px;
+    top: -30px;
+}
+.full-img img{
+	width: 1450px;
+	max-width: 100%;
+}
+.hightlights-left-img{
+	display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: -150px;
+    margin: 50px 0;
+}
+.hightlights-left-img img, .hightlights-right-img img{
+	height: 600px;
+}
+.hightlights-right-img{
+	display: flex;
+	justify-content: space-evenly;
+	position: relative;
+    right: -150px;
+}
+.highlights-wrap{
+	display: flex;
+}
+.highlights-title h1{
+    color: #E0AA3E;
+    font-weight: 500;
+    margin-top: 26px;
+}
+.highlights-title h4{
+    color: #E0AA3E;
+    font-weight: 500;
+    font-style: italic;
+    position: relative;
+    left: 200px;
+    top: -15px;
+}
+.hightlights-left-img-1 h6, .hightlights-left-img-2 h6, .hightlights-right-img-1 h6, .hightlights-right-img-1 h6{
+    color: #E0AA3E;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.hightlights-left-img-1 p, .hightlights-left-img-2 p, .hightlights-right-img-1 p, .hightlights-right-img-1 p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.hightlights-left-img-1 span, .hightlights-left-img-2 span, .hightlights-right-img-1 span, .hightlights-right-img-1 span{
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+}
+.instagram{
+    padding: 100px 0px 100px 200px;
+}
+.instagram img{
+    width: 80%;
+}
+.follow-instagram{
+    padding: 0 0px 0 100px;
+    margin-top: -200px;
+}
+.follow-instagram h1{
+    color: #E0AA3E;
+    font-weight: 500;
+}
+.follow-instagram h4{
+    color: #E0AA3E;
+    font-weight: 500;
+    position: relative;
+    left: 100px;
+}
+.subscribe-wrap{
+    margin: 150px auto;
+    text-align: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.subscribe h4{
+    color: #E0AA3E;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    font-size: 42px;
+}
+.subscribe h1{
+    color: #E0AA3E;
+    font-weight: 500;
+}
+#email{
+    color: #c8c8c8;
+    padding: 12px 80px 12px 30px;
+    border: 1px solid #949494;
+    border-radius: 7px;
+    margin-right: 20px;
+}
+.subscribe-btn{
+    background: #E0AA3E;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.footer{
+    background: #000000;
+    padding: 0 50px 0 0;
+}
+.footer-wrap{
+    display: flex;
+    justify-content: space-around;
+}
+.footer h3{
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+    padding: 50px 0px;
+}
+.information h6, .newsletter h6, .help h6, .social h6{
+    color: #E0AA3E;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+.information p, .newsletter p, .help p, .social p{
+    color: #949494;
+}
+.copyright{
+    display: flex;
+    padding: 30px 0;
+    padding: 30px 50px 30px 100px;
+    justify-content: space-between;
+}
+.copyright p, .copyright a{
+    color: #ffffff;
+    font-size: 12px;
+}
+
+
+
+
+/*** SLIDER ***/
+.content{
+    margin-top: 150px;
+}
+.rm_wrapper{
+	width:1350px;
+	margin:0 auto;
+	position:relative;
+}
+.rm_container{
+	width:1150px;
+	overflow:hidden;
+	position:relative;
+	height:530px;
+	margin:0 auto;
+}
+.rm_container h2{
+	background:transparent url(https://tympanus.net/Tutorials/RotatingImageSlider/images/lines.png) repeat top left;
+	padding:10px 30px;
+	position:absolute;
+	bottom:170px;
+	right:0px;
+	color:#000;
+	font-size:36px;
+	text-transform:uppercase;
+	text-shadow:1px 0px 1px #fff;
+}
+.rm_container ul{
+	width:1170px;
+}
+.rm_container ul li{
+	float:left;
+	margin-left:-33px;
+	position:relative;
+	overflow:hidden;
+	width:325px;
+	height:465px;
+	border:30px solid #fbfbfb;
+	border-width:50px 30px 0px 30px;
+	background-color:#fbfbfb;
+}
+.rm_container ul li img{
+	position:absolute;
+	top:0px;
+	left:0px;
+    width: 95%;
+    height: 100%;
+}
+.rm_mask_right, .rm_mask_left{
+	position: absolute;
+	height: 110px;
+	background: #fbfbfb;
+	width: 580px;
+	bottom: -30px;
+	left: 0px;
+	-moz-transform:rotate(-3deg);
+	-webkit-transform:rotate(-3deg);
+	transform:rotate(-3deg);
+}
+.rm_mask_right{
+	left:auto;
+	right:0px;
+	-moz-transform:rotate(3deg);
+	-webkit-transform:rotate(3deg);
+	transform:rotate(3deg);
+}
+.rm_corner_right, .rm_corner_left{
+	background: #fbfbfb;
+	position:absolute;
+	width:200px;
+	height:120px;
+	bottom:0px;
+	left:-55px;
+	-moz-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	transform:rotate(45deg);
+}
+.rm_corner_right{
+	left:auto;
+	right:-65px;
+	-moz-transform:rotate(-45deg);
+	-webkit-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+}
+.rm_nav a{
+	position:absolute;
+	top:200px;
+	width:38px;
+	height:87px;
+	cursor:pointer;
+	opacity:0.7;
+}
+.rm_nav a:hover{
+	opacity:1.0;
+}
+.rm_nav a.rm_next{
+	background:transparent url(https://tympanus.net/Tutorials/RotatingImageSlider/images/next.png) no-repeat top left;
+	right:0px;
+}
+.rm_nav a.rm_prev{
+	background:transparent url(https://tympanus.net/Tutorials/RotatingImageSlider/images/prev.png) no-repeat top left;
+	left:0px;
+}
+.rm_controls{
+	display: none;
+	position:absolute;
+	top:0px;
+	left:-40px;
+	height:20px;
+}
+.rm_controls a{
+	cursor:pointer;
+	opacity:0.7;
+	padding-left:24px;
+	font-size:16px;
+	text-transform:uppercase;
+	height:20px;
+	float:left;
+	line-height:20px;
+}
+.rm_controls a:hover{
+	opacity:1.0;
+}
+.rm_controls a.rm_play{
+	display:none;
+	background:transparent url(https://tympanus.net/Tutorials/RotatingImageSlider/images/play.png) no-repeat center left;
+}
+.rm_controls a.rm_pause{
+	background:transparent url(https://tympanus.net/Tutorials/RotatingImageSlider/images/pause.png) no-repeat center left;
+}
+
+/*** END SLIDER ***/
+
+
+
+
+/*** RESPONSIVE ***/
+
+@media screen and (max-width: 992px){
+    .header{
+        left: -20px;
+    }
+    .logo .title-gold, .logo .title-black{
+        font-size: 42px;
+    }
+    .card img{
+        width: 30px;
+        right: 20px;
+    }
+    .feauter-top{
+        display: block;
+    }
+    .feauter-top img{
+        width: 100%;
+    }
+    .feature-element{
+        padding: 30px;
+    }
+    .feature-element-title-1{
+        left: 20px;
+        font-size: 42px;
+    }
+    .feature-element-title-2{
+        left: 0px;
+        font-size: 42px;
+    }
+    .feature-element-title-2 span {
+        position: relative;
+        top: -20px;
+        right: -25px;
+    }
+    .feature-element-title-3{
+        font-size: 42px;
+    }
+    .content{
+        margin-top: 100px;
+    }
+    .new-collection-section{
+        margin-top: 50px;
+        display: block;
+    }
+    .new-collection-txt{
+        padding: 30px;
+    }
+    .new-collection-txt .summer-title{
+        font-size: 42px;
+    }
+    .new-collection-txt .year-title{
+        font-size: 42px;
+        top: -30px;
+        left: 150px;
+    }
+    .new-collection-txt p{
+        margin-top: -20px;
+    }
+    .btn-wrap{
+        left: 120px;
+    }
+    .collection-menu{
+        left: 0;
+        top: 130px;
+
+    }
+    .highlights-title h1{
+        font-size: 42px;    
+        margin-top: 0px;
+    }
+    .new-collection-img-1 img{
+        width: 100%;
+        left: 0;
+        top: 30px;
+    }
+    .new-collection-img-2 img{
+        width: 100%;
+        left: 0;
+        top: 50px;
+    }
+    .collection{
+        display: block;
+    }
+    .left-img, .right-img{
+        display: block;
+    }
+    .right-img-1{
+        left: 0;
+        top: 100px;
+    }
+    .right-img-2{
+        left: 0;
+        top: 100px;
+    }
+    .full-img{
+        margin-top: 200px;
+    }
+    .highlights-wrap{
+        display: block;
+        margin: 100px 30px 0 30px !important;
+    }
+    .highlights-title h4{
+        left: 115px;
+    }
+    .btn-wrap-2{
+        left: 100px;
+        top: 50px;
+    }
+    .btn-line-1{
+        top: 0;
+    }
+    .cyrcle-btn-1{
+        top: -31px;
+    }
+    .hightlights-left-img {
+        display: block;
+        margin: 100px 0 0 0; 
+        left: 0;
+    }
+    .hightlights-right-img{
+        display: block;
+        left: 0;
+    }
+    .hightlights-left-img-1 h6, .hightlights-left-img-2 h6, .hightlights-right-img-1 h6, .hightlights-right-img-1 h6 {
+        margin: 10px;
+    }
+    .hightlights-left-img-1 p, .hightlights-left-img-2 p, .hightlights-right-img-1 p, .hightlights-right-img-1 p {
+        margin: 10px;
+    }
+    .hightlights-left-img-1 span, .hightlights-left-img-2 span, .hightlights-right-img-1 span, .hightlights-right-img-1 span {
+        margin: 10px;
+    }
+    .instagram {
+        padding: 0;
+        margin: 100px 0;
+    }
+    .instagram img {
+        width: 100%;
+    }
+    .follow-instagram {
+        padding: 20px;
+        margin-top: 0;
+    }
+    .follow-instagram h1{
+        font-size: 42px;
+    }
+    .follow-instagram h4{
+        left: 30px;
+    }
+    .subscribe h1{
+        margin: 50px 0;
+        font-size: 42px;
+        line-height: 1.2;
+    }
+    form{
+        display: block;
+    }
+    .subscribe-btn{
+        margin-top: 20px;
+    }
+    .footer{
+        padding: 30px;
+    }
+    .footer-wrap{
+        display: block;
+    }
+    .newsletter, .help, .social{
+        margin-top: 20px;
+    }
+    .copyright{
+        display: block;
+        padding: 30px 0;
+    }
+}
+@media screen and (min-width: 993px) and (max-width: 1280px){
+    .feature-element-title-2{
+        left: -5px;
+    }
+    .feature-element-title-2 span{
+        right: -30px;
+    }
+    .new-collection-txt {
+        padding: 50px 400px 50px 100px;
+    }
+    .new-collection-img-1 img{
+        left: -270px;
+        top: 200px;
+    }
+    .collection{
+        display: block;
+        margin: -200px 0 !important;
+    }
+    .collection-menu{
+        left: 0;
+        top: 150px;
+    }
+    .right-img{
+        margin: 150px 0 200px 0;
+    }
+    .right-img-1, .right-img-2{
+        left: 0;
+    }
+    .hightlights-left-img{
+        left: 0px;
+    }
+    .hightlights-right-img{
+        right: 0;
+    }
+}
